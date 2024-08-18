@@ -37,11 +37,12 @@ header {
 }
 
 .search input {
-    height: 2.5em;
     flex-basis: 80%;
     border-radius: 20px;
     border: none;
     background-color: rgb(207, 206, 206);
+    padding-left: 1rem;
+    font-size: 1.8rem;
 }
 
 .search img {
@@ -235,8 +236,8 @@ main {
 }
 
 .clickable img {
-    height: 1.6rem;
-    width: 1.6rem;
+    height: 2rem;
+    width: 2rem;
 }
 
 .announcements {
