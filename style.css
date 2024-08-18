@@ -239,8 +239,9 @@ main {
     width: 25rem;
 }
 
-.announcements .title {
-    font-size: 1.8rem;
+.announcements .title, 
+.interests .title{
+    font-size: 2rem;
 }
 
 .announcements-container {
@@ -277,4 +278,10 @@ hr {
     display: flex;
     flex-direction: column;
     grid-area: interests;
+    padding: 1rem 2rem;
+    width: 25rem;
+}
+
+.interests .title {
+    margin-bottom: 2rem;
 }
