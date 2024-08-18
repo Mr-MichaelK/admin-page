@@ -125,7 +125,7 @@ header {
 
 .sidebar {
     grid-area: sidebar;
-    background-color: #fca5a5;
+    background-color: #f8acac;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -185,7 +185,8 @@ main {
     padding: 1rem 2rem;
 }
 
-.projects .title {
+.projects .title,
+.announcements .title {
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
@@ -233,9 +234,43 @@ main {
 }
 
 .announcements {
+    grid-area: announcements;
+    padding: 1rem 2rem;
+    width: 25rem;
+}
+
+.announcements .title {
+    font-size: 1.8rem;
+}
+
+.announcements-container {
     display: flex;
     flex-direction: column;
-    grid-area: announcements;
+    background-color: white;
+    border-radius: 10px;
+    gap: 2rem;
+}
+
+.announcement-title {
+    font-size: 1.4rem;
+}
+
+.announcement-description {
+    font-size: 1.3rem;
+    color: rgb(116, 116, 116);
+}
+
+.announcement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+
+hr {
+    width: 80%;
+    align-self: center;
 }
 
 .interests {
