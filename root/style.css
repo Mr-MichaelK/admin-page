@@ -1,6 +1,12 @@
+@font-face {
+    font-family: "Roboto-Regular.ttf";
+    src: url(../resources/Roboto-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
+    font-family: "Roboto-Regular.ttf";
 }
 
 body {
@@ -95,8 +101,8 @@ header {
 }
 
 .bell {
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 2rem;
+    width: 2rem;
 }
 
 .lower-links {
