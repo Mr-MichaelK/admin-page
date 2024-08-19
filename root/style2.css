@@ -1,0 +1,34 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+
+.main-title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.split {
+    height: 0.3rem;
+    background-color: black;
+}
+
+.main-text {
+    text-indent: 3rem;
+    line-height: 1.5;
+    max-width: 75ch;
+    font-size: 1.5rem;
+    flex: 1 1 auto;
+}
+
+.main-text p {
+    margin-bottom: 1rem;
+}
