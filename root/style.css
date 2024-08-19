@@ -213,10 +213,12 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 
 .project-title {
     font-size: 1.8rem;
+    margin-top: 2rem;
     margin-bottom: 2.5rem;
 }
 
@@ -238,6 +240,31 @@ main {
 .clickable img {
     height: 2rem;
     width: 2rem;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.unresponsive::after,
+.responsive::after {
+    position: relative;
+    top: 10%;
+    background-color: #9b006f;
+    border: 1px solid #5b0041;
+    border-radius: 25px;
+    padding: 0.4rem 0.8rem;
+    color: aqua;
+    font-size: 1.2rem;
+}
+
+.unresponsive::after {
+    content: "unresponsive";
+}
+
+.responsive::after {
+    content: "responsive";
 }
 
 .announcements {
