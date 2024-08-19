@@ -9,16 +9,19 @@ main {
 .main-title {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    flex: 1 1 auto;
 }
 
 h2 {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    flex: 1 1 auto;
 }
 
 .split {
     height: 0.3rem;
     background-color: black;
+    flex: 1 1 auto;
 }
 
 .main-text {
